@@ -1,0 +1,79 @@
+<CanvasWidget xmlns="runtime-namespace:Game">
+
+  <CanvasWidget Size="680, 420" ClampToBounds="true" HorizontalAlignment="Center" VerticalAlignment="Center">
+    <RectangleWidget FillColor="0, 0, 0, 255" OutlineColor="128, 128, 128, 128" OutlineThickness="2" />
+    <StackPanelWidget Direction="Vertical" HorizontalAlignment="Center" VerticalAlignment="Near" Margin="0, 15">
+
+      <LabelWidget  Text="Gamepad Controls" HorizontalAlignment="Center"/>
+
+      <CanvasWidget Margin="20, 15">
+
+        <RectangleWidget FillColor="0, 0, 0, 0" OutlineColor="128, 128, 128, 128" OutlineThickness="1" />
+
+        <ScrollPanelWidget Margin="4, 4" Direction="Vertical">
+
+          <StackPanelWidget Direction="Horizontal" HorizontalAlignment="Center">
+
+            <StackPanelWidget Direction="Vertical">
+              <LabelWidget Text="Left Stick"  HorizontalAlignment="Center" />
+              <LabelWidget Text="Right Stick"  HorizontalAlignment="Center" />
+              <LabelWidget Text="Left Trigger"  HorizontalAlignment="Center" />
+              <LabelWidget Text="Right Trigger"  HorizontalAlignment="Center" />
+              <LabelWidget Text="Left Thumb Click"  HorizontalAlignment="Center" _ExcludePlatforms="Ios"/>
+              <LabelWidget Text="Right Thumb Click"  HorizontalAlignment="Center" _ExcludePlatforms="Ios"/>
+              <LabelWidget Text="Left Shoulder"  HorizontalAlignment="Center" />
+              <LabelWidget Text="Right Shoulder"  HorizontalAlignment="Center" />
+              <LabelWidget Text="A"  HorizontalAlignment="Center" />
+              <LabelWidget Text="B"  HorizontalAlignment="Center" />
+              <LabelWidget Text="X"  HorizontalAlignment="Center" />
+              <LabelWidget Text="Y"  HorizontalAlignment="Center" />
+              <LabelWidget Text="D-Pad Up"  HorizontalAlignment="Center" />
+              <LabelWidget Text="D-Pad Down"  HorizontalAlignment="Center" />
+              <LabelWidget Text="D-Pad Left/Right"  HorizontalAlignment="Center" />
+              <LabelWidget Text="D-Pad Up/Down"  HorizontalAlignment="Center" />
+              <LabelWidget Text="Back/Select/Pause"  HorizontalAlignment="Center" />
+              <LabelWidget Text="Left Trigger + A"  HorizontalAlignment="Center" />
+              <LabelWidget Text="2xA"  HorizontalAlignment="Center" />
+              <LabelWidget Text="A/Right Shoulder"  HorizontalAlignment="Center" />
+            </StackPanelWidget>
+
+            <CanvasWidget Size="16, 0" />
+
+            <StackPanelWidget Direction="Vertical">
+              <LabelWidget Text="movement"  Color="160, 160, 160" />
+              <LabelWidget Text="looking"  Color="160, 160, 160"/>
+              <LabelWidget Text="place block, use, interact"  Color="160, 160, 160"/>
+              <LabelWidget Text="dig, attack, aim"  Color="160, 160, 160"/>
+              <LabelWidget Text="mount creature or vehicle"  Color="160, 160, 160" _ExcludePlatforms="Ios"/>
+              <LabelWidget Text="change camera mode"  Color="160, 160, 160" _ExcludePlatforms="Ios"/>
+              <LabelWidget Text="edit block or item"  Color="160, 160, 160"/>
+              <LabelWidget Text="toggle sneaking"  Color="160, 160, 160"/>
+              <LabelWidget Text="jump, drag items"  Color="160, 160, 160"/>
+              <LabelWidget Text="drop active item, cancel"  Color="160, 160, 160"/>
+              <LabelWidget Text="open inventory panel"  Color="160, 160, 160" />
+              <LabelWidget Text="open body panel"  Color="160, 160, 160" />
+              <LabelWidget Text="mount creature or vehicle"  Color="160, 160, 160"/>
+              <LabelWidget Text="change camera mode"  Color="160, 160, 160"/>
+              <LabelWidget Text="change active slot"  Color="160, 160, 160" />
+              <LabelWidget Text="scroll, prev/next page"  Color="160, 160, 160" />
+              <LabelWidget Text="show game menu"  Color="160, 160, 160" />
+              <LabelWidget Text="auto move inventory item"  Color="160, 160, 160" />
+              <LabelWidget Text="toggle fly mode (creative)"  Color="160, 160, 160" />
+              <LabelWidget Text="fly up/down (creative)"  Color="160, 160, 160" />
+            </StackPanelWidget>
+          </StackPanelWidget>
+
+        </ScrollPanelWidget>
+
+      </CanvasWidget>
+
+      <StackPanelWidget HorizontalAlignment="Center">
+        <BevelledButtonWidget Name="OkButton" Text="OK" Style="{Styles/ButtonStyle_160x60}"  />
+        <CanvasWidget Size="40, 0" />
+        <BevelledButtonWidget Name="HelpButton" Text="Help" Style="{Styles/ButtonStyle_160x60}" />
+      </StackPanelWidget>
+      
+    </StackPanelWidget>
+
+  </CanvasWidget>
+</CanvasWidget>

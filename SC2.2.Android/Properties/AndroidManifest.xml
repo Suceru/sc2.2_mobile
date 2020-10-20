@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1213" android:versionName="2.2.10.4API" package="com.candy.survivalcraft2_2_10" android:installLocation="auto">
+	<uses-sdk android:minSdkVersion="19" android:targetSdkVersion="28" />
+	<application android:label="生存战争2.2插件版" android:theme="@style/MainTheme" android:icon="@mipmap/icon" android:usesCleartextTraffic="true"></application>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.VIBRATE" />
+</manifest>
